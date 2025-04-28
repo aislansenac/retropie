@@ -1,4 +1,14 @@
 # retropie
+
+## PLAYSTATION
+
+### Para vibrar o controle
+#### Na tela do jogo clique em HotKey + X
+#### MENU RÁPIDO >> Controles
+#### Controle da porta 1
+#### Tipo de dispositivo: dualshock
+#### E reinicie
+
 ## NEO GEO
 ### Precisa do arquivo neogeo.zip
 ### Configurando para praticar
