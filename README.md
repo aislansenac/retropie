@@ -1,26 +1,47 @@
-# retropie
+# 🎮 RetroPie — Dicas e Configurações
 
-## PLAYSTATION
+## 🕹️ PlayStation
 
-### Para vibrar o controle
-#### Na tela do jogo clique em HotKey + X
-#### MENU RÁPIDO >> Controles
-#### Controle da porta 1
-#### Tipo de dispositivo: dualshock
-#### E reinicie
+### 🎮 Ativar Vibração do Controle
 
-## NEO GEO
-### Precisa do arquivo neogeo.zip
-### Configurando para praticar
-#### Na tela do jogo clique em HotKey + X
-#### MENU RÁPIDO >> Configurações do núcleo
-#### Diagnostic Input: Hold Star + L + R (essa configuração é importante para evitar ficar entrando nessa tela)
-#### Neo-Geo Settings >> NeoGeo mode >> UNIBIOS
-#### Reinicie o jogo
-##### 1. TECLA B => A;
-##### 2. TECLA A => B;
-##### 3. TECLA Y => C;
+1. Durante o jogo, pressione `HotKey + X`.
+2. Vá em **Menu Rápido** → **Controles**.
+3. Selecione **Controle da porta 1**.
+4. Em **Tipo de dispositivo**, escolha `dualshock`.
+5. Reinicie o jogo para aplicar.
 
-#### Aperte (A + B + C)
-#### REGION SETUP (aperte A)
-#### Escolha a Region: ----- e o Mode: Console
+---
+
+## 🐉 Neo Geo
+
+### 📦 Arquivo Necessário
+
+- Certifique-se de ter o arquivo `neogeo.zip` na pasta correta.
+
+### ⚙️ Configurar para Praticar
+
+1. Durante o jogo, pressione `HotKey + X`.
+2. Vá em **Menu Rápido** → **Configurações do Núcleo**.
+3. Em **Diagnostic Input**, configure para `Hold Start + L + R`.  
+   _👉 Isso evita que fique entrando nessa tela sem querer._
+4. Em **Neo-Geo Settings**, configure:
+   - `NeoGeo Mode` → `UNIBIOS`
+5. Reinicie o jogo.
+
+### 🎛️ Configuração de Teclas
+
+- **1.** Tecla **B** → A  
+- **2.** Tecla **A** → B  
+- **3.** Tecla **Y** → C  
+
+### 🌍 Configurar Região e Modo
+
+1. Pressione `A + B + C` juntos.
+2. Selecione **Region Setup** (pressione A).
+3. Escolha:
+   - **Region:** `-----`
+   - **Mode:** `Console`
+
+---
+
+✅ Pronto! Agora você está com tudo configurado para aproveitar ao máximo.  
