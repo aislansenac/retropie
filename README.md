@@ -52,3 +52,4 @@
 # Atualizar Rasp-config
 # Atualizar retroarch
 # Vídeo HDMI
+# Subir jogos
