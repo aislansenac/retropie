@@ -44,4 +44,11 @@
 
 ---
 
-✅ Pronto! Agora você está com tudo configurado para aproveitar ao máximo.  
+✅ Pronto! Agora você está com tudo configurado para aproveitar ao máximo.
+
+# Atualizar localização 
+# Configurar controle
+# Inserir a Wi-Fi 
+# Atualizar Rasp-config
+# Atualizar retroarch
+
