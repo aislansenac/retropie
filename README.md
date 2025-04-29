@@ -51,4 +51,4 @@
 # Inserir a Wi-Fi 
 # Atualizar Rasp-config
 # Atualizar retroarch
-
+# Vídeo HDMI
