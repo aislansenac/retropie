@@ -16,7 +16,7 @@
 
 ### 📦 Arquivo Necessário
 
-- Certifique-se de ter o arquivo `neogeo.zip` na pasta correta.
+- Certifique-se de ter o arquivo `neogeo.zip` na pasta correta `/home/pi/RetroPie/roms/neogeo`.
 
 ### ⚙️ Configurar para Praticar
 
