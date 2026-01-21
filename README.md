@@ -8,7 +8,7 @@
 
 ### 🎮 Ativar Vibração do Controle
 
-1. Durante o jogo, pressione `HotKey + Δ`.
+1. Durante o jogo, pressione `HotKey + X`.
 2. Vá em **Menu Rápido** → **Controles**.
 3. Selecione **Controle da porta 1**.
 4. Em **Tipo de dispositivo**, escolha `dualshock`.
@@ -24,7 +24,7 @@
 
 ### ⚙️ Configurar para Praticar
 
-1. Durante o jogo, pressione `HotKey + Δ`.
+1. Durante o jogo, pressione `HotKey + X`.
 2. Vá em **Menu Rápido** → **Configurações do Núcleo**.
 3. Em **Diagnostic Input**, configure para `Hold Start + L + R`.  
    _👉 Isso evita que fique entrando nessa tela sem querer._
