@@ -8,7 +8,7 @@
 
 ### 🎮 Ativar Vibração do Controle
 
-1. Durante o jogo, pressione `HotKey + X`.
+1. Durante o jogo, pressione `HotKey + Δ`.
 2. Vá em **Menu Rápido** → **Controles**.
 3. Selecione **Controle da porta 1**.
 4. Em **Tipo de dispositivo**, escolha `dualshock`.
