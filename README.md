@@ -2,6 +2,10 @@
 
 ## 🕹️ PlayStation
 
+### 📦 Arquivo Necessário
+
+- Certifique-se de ter o arquivo `SCPH1001.BIN` na pasta correta `/home/pi/RetroPie/roms/psx`.
+
 ### 🎮 Ativar Vibração do Controle
 
 1. Durante o jogo, pressione `HotKey + X`.
