@@ -4,7 +4,7 @@
 
 ### 📦 Arquivo Necessário
 
-- Certifique-se de ter o arquivo `SCPH1001.BIN` na pasta correta `/home/pi/RetroPie/roms/psx`.
+- Certifique-se de ter o arquivo `SCPH1001.BIN` na pasta correta `/home/pi/RetroPie/BIOS`.
 
 ### 🎮 Ativar Vibração do Controle
 
