@@ -24,7 +24,7 @@
 
 ### ⚙️ Configurar para Praticar
 
-1. Durante o jogo, pressione `HotKey + X`.
+1. Durante o jogo, pressione `HotKey + Δ`.
 2. Vá em **Menu Rápido** → **Configurações do Núcleo**.
 3. Em **Diagnostic Input**, configure para `Hold Start + L + R`.  
    _👉 Isso evita que fique entrando nessa tela sem querer._
