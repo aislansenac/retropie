@@ -1,5 +1,102 @@
 # 🎮 RetroPie — Dicas e Configurações
 
+## ⚙️ Configuração Inicial do RetroPie (Primeiros Passos)
+
+Antes de instalar jogos e configurar emuladores, é **muito importante ajustar o sistema** para evitar problemas futuros.
+
+### 🛠️ Acessando o Raspi-Config
+
+1. No menu principal do RetroPie, entre em **RetroPie**.
+2. Selecione **raspi-config** e confirme com o botão **A**.
+
+---
+
+### 👤 Alterar Usuário e Senha
+
+1. No **raspi-config**, entre em:
+   - **1 System Options**
+2. Altere:
+   - Nome do usuário (se desejar)
+   - Senha do usuário  
+
+> 👉 Recomendado por segurança.
+
+---
+
+### 🌐 Habilitar Acesso Remoto (SSH)
+
+1. Vá em:
+   - **3 Interface Options**
+2. Selecione:
+   - **SSH**
+3. Marque como **Enable**.
+
+> 👉 Isso permite acessar o RetroPie remotamente pelo computador.
+
+---
+
+### 🌍 Configurações de Localização
+
+Entre em:
+
+- **5 Localisation Options**
+
+Configure os itens abaixo:
+
+#### 🗣️ Idioma do Sistema
+- **L1 Locale**
+- Marque:
+  - `pt_BR.UTF-8 UTF-8`
+- Defina como **padrão (Default)**.
+
+#### ⏰ Fuso Horário
+- **L2 Timezone**
+- Selecione:
+  - **America**
+  - **Brazil**
+
+#### 📡 País do Wi-Fi
+- **L4 WLAN Country**
+- Selecione:
+  - **Brazil**
+
+---
+
+### ✅ Finalizar Configurações
+
+- Selecione **Finish**
+- Reinicie, se for solicitado.
+
+---
+
+### 📶 Ativar Wi-Fi no RetroPie
+
+1. Volte ao menu **RetroPie**.
+2. Entre em **WiFi**.
+3. Configure sua rede sem fio.
+
+---
+
+### 🔄 Atualização do Sistema (Raspi-Config)
+
+1. Retorne ao **raspi-config**.
+2. Vá em:
+   - **8 Update**
+3. Aguarde a atualização finalizar.
+
+---
+
+### 🔧 Atualizar o RetroPie
+
+1. No menu **RetroPie**, entre em **RetroPie-Setup**.
+2. Execute:
+   - **Update**
+3. Em seguida:
+   - **Update RetroPie-Setup script**
+4. Após concluir, faça um **reboot** do sistema.
+
+---
+
 ## 🕹️ PlayStation
 
 ### 📦 Arquivo Necessário
@@ -50,33 +147,5 @@
 
 ✅ Pronto! Agora você está com tudo configurado para aproveitar ao máximo.
 
-# Atualizar localização 
-# Configurar controle
-# Inserir a Wi-Fi 
-# Atualizar Rasp-config
-# Atualizar retroarch
-# Vídeo HDMI
-# Subir jogos
-# Botão Start
-### @kitsune , acho que esse é o mesmo problema que tive recentemente. Tente desabilitar o "multitap". Inicie um jogo, acesse as configurações do Retroarch (selecione e execute na maioria das castas) e vá em "opções"... habilite "mostrar outras configurações de entrada". Saia do jogo e comece de novo. Volte para as opções e deve haver algumas configurações disponíveis. Duas delas são "multitap 1" e "multitap 2". Desative ambas e reinicie novamente. Isso resolveu o problema para mim.
-### 
- 29 de novembro de 2020, 19:26
-
-@yelworc Muito obrigado! Tive o mesmo problema e tentei várias outras opções, sem sucesso.
-
-Algumas pequenas correções em suas instruções:
-
-O menu do RetroArch é acessado com a tecla de atalho + X por padrão, enquanto a maioria das pessoas define a tecla de atalho para Selecionar, então ela deve ser Selecionar + X na maioria das configurações.
-Não é necessário reiniciar o jogo após habilitar Mostrar outras configurações de entrada. Basta retomar o jogo e entrar novamente no menu para ver as opções adicionais.
-Depois de desabilitar os dois Multitaps, os botões Iniciar funcionaram como deveriam, embora eu também tenha precisado salvar uma Substituição de Núcleo (em Menu Rápido > Substituições) para fazer as alterações durarem.
-Obrigado novamente por me apontar a direção certa!
-
-@mitu Será que isso deveria ser o padrão no RetroPie? Parece um tanto estranho que as configurações padrão atuais Multitap 1 + 2 = Automático impeçam o botão Iniciar de funcionar, enquanto Mostrar Outras Configurações de Entrada = Desativado oculta essas opções simultaneamente do player.
-
-
-Moderador Global
- 30 de novembro de 2020, 01:51
-
-@clyde Por padrão, as opções de Multitap estão desabilitadas e a opção " Mostrar Outras Configurações de Entrada" está desativada . Em algum momento, o Multitap foi definido como automático , mas agora não está mais . Acho que os usuários que atualizaram em algum momento receberam o padrão (na época), o que interrompeu a entrada. No entanto, agora, ao iniciar o Core pela primeira vez, as opções de Multitap estão desabilitadas.
 
 ### [https://retropie.org.uk/forum/topic/35590/when-i-click-the-start-button-on-my-controller-the-main-menu-only-has-sound-settings-and-quit?_=1745917978931](https://retropie.org.uk/forum/topic/28656/start-button-on-psx-emulator-doesn-t-work/4)
