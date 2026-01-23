@@ -97,6 +97,29 @@ Configure os itens abaixo:
 
 ---
 
+## ⚠️ RetroPie não inicia no modo gráfico?
+
+Se, após reiniciar, o sistema **não entrar automaticamente na interface gráfica do RetroPie (EmulationStation)**, siga os passos abaixo:
+
+### 🖥️ Ajustar Autostart do RetroPie
+
+1. Acesse o terminal (localmente ou via SSH).
+2. Digite o comando:
+
+```bash
+sudo ~/RetroPie-Setup/retropie_setup.sh
+```
+
+3. No menu que abrir, selecione:
+   - **Configuration / tools**
+4. Em seguida:
+   - **autostart**
+5. Escolha a opção para iniciar o **EmulationStation automaticamente**.
+6. Saia do menu e reinicie o sistema.
+> 👉 Isso garante que o RetroPie sempre inicie no modo gráfico.
+
+---
+
 ## 🕹️ PlayStation
 
 ### 📦 Arquivo Necessário
