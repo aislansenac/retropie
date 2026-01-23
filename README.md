@@ -169,6 +169,3 @@ sudo ~/RetroPie-Setup/retropie_setup.sh
 ---
 
 ✅ Pronto! Agora você está com tudo configurado para aproveitar ao máximo.
-
-
-### [https://retropie.org.uk/forum/topic/35590/when-i-click-the-start-button-on-my-controller-the-main-menu-only-has-sound-settings-and-quit?_=1745917978931](https://retropie.org.uk/forum/topic/28656/start-button-on-psx-emulator-doesn-t-work/4)
