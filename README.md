@@ -144,15 +144,22 @@ Não pressione Enter dentro dele.
 ---
 ### 🔎 Alterar o Console Padrão
 
-* Localize (ou ajuste) os parâmetros para ficar semelhante a:
+* Arquivo original:
 ```text
-console=tty10 quiet loglevel=0 vt.global_cursor_default=0
+console=serial0,115200 console=tty1 root=PARTUUID=00f2345f-02 rootfstype=ext4 fsck.repair=yes rootwait loglevel=3 consoleblank=0 plymouth.enable=0
+```
+* Meu arquivo *cmdline.txt*, ficou assim:
+```text
+console=tty10 root=PARTUUID=00f2345f-02 rootfstype=ext4 fsck.repair=yes rootwait quiet loglevel=0 consoleblank=0 plymouth.enable=0 vt.global_cursor_default=0
 ```
 O que cada opção faz:
 * `console=tty10` → oculta mensagens do console principal
 * `quiet` → reduz mensagens do kernel
 * `loglevel=0` → remove logs do boot
 * `vt.global_cursor_default=0` → remove o cursor piscando
+* `console=serial0,115200 (opcional)`  → Mantém logs na porta serial (HDMI não mostra) pode manter, não atrapalha o visual
+
+Se quiser silêncio absoluto até na serial, pode remover
 > 👉 Isso faz com que as mensagens do sistema sejam enviadas para outro terminal, ficando ocultas da tela principal.
 ---
 ### 💾 Salvar e Sair
