@@ -114,9 +114,60 @@ sudo ~/RetroPie-Setup/retropie_setup.sh
    - **Configuration / tools**
 4. Em seguida:
    - **autostart**
-5. Escolha a opção para iniciar o **EmulationStation automaticamente**.
+5. Escolha a opção para iniciar o **1 Start EmulationStation at boot**.
 6. Saia do menu e reinicie o sistema.
 > 👉 Isso garante que o RetroPie sempre inicie no modo gráfico.
+
+---
+
+## 🖥️ Remover Textos da Inicialização do RetroPie (Boot Clean)
+
+Durante a inicialização do RetroPie, podem aparecer **mensagens de texto do sistema (boot messages)** antes de entrar no EmulationStation.  
+É possível ocultar essas mensagens para deixar o boot mais limpo e visualmente agradável.
+
+### ⌨️ Acessar o Terminal no RetroPie
+
+1. Na tela inicial do RetroPie, pressione:
+   - **F4**
+2. Você será direcionado para o **terminal do sistema**.
+---
+### ✏️ Editar Arquivo de Inicialização
+
+No terminal, digite o comando abaixo:
+
+```bash
+sudo nano /boot/cmdline.txt
+```
+> ⚠️ Atenção:
+Este arquivo deve permanecer em apenas uma linha.
+Não pressione Enter dentro dele.
+---
+### 🔎 Alterar o Console Padrão
+
+* Localize (ou ajuste) os parâmetros para ficar semelhante a:
+```text
+console=tty10 quiet loglevel=0 vt.global_cursor_default=0
+```
+O que cada opção faz:
+* `console=tty10` → oculta mensagens do console principal
+* `quiet` → reduz mensagens do kernel
+* `loglevel=0` → remove logs do boot
+* `vt.global_cursor_default=0` → remove o cursor piscando
+> 👉 Isso faz com que as mensagens do sistema sejam enviadas para outro terminal, ficando ocultas da tela principal.
+---
+### 💾 Salvar e Sair
+
+No editor nano:
+* Pressione CTRL + O → Enter (salvar)
+* Pressione CTRL + X (sair)
+---
+### 🔄 Reiniciar o Sistema
+
+Para aplicar as alterações, reinicie o sistema:
+```text
+sudo reboot
+```
+Após reiniciar, o RetroPie iniciará com a tela mais limpa, sem as mensagens de texto durante o boot 🎮✨
 
 ---
 
